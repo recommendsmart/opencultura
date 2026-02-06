@@ -1,5 +1,0 @@
-node_usage:
-  version: 1.0
-  css:
-    theme:
-      css/node_usage.css: {}

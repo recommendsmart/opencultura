@@ -1,4 +1,0 @@
-services:
-  Drupal\lbl\CssGenerator:
-    class: Drupal\lbl\CssGenerator
-    arguments: ["@breakpoint.manager", "@theme.manager"]

@@ -1,9 +1,0 @@
-layout:
-  css:
-    layout:
-      css/lbl-layout.css: {}
-
-form:
-  css:
-    layout:
-      css/lbl-checkbox-selector.css: {}

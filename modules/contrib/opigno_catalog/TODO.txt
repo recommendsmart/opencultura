@@ -1,2 +1,0 @@
-* Add number of entity on filters
-* Sort on top and as on design
