@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+{{ attach_library('bootstrap_barrio/form') }}
+
+<form{{ attributes.addClass('login-form') }}>
+  <div class="row gy-3">
+    {{ children }}
+    <div class="px-3 mt-0">
+      <hr class="mb-4">
+      <p style="color: #575758;" class="mt-3">{{ 'Need help or support? Visit'|t }} <a href="https://www.droptica.com/products/intranet">www.droptica.com/products/intranet</a></p>
+    </div>
+  </div>
+</form>

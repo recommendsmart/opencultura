@@ -1,75 +1,172 @@
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
+<div align="center">
+  <h1>Open Intranet <br> Workplace Hub</h1>
+  <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">
+    <img alt="License" src="https://img.shields.io/badge/license-GPLv2%2B-blue.svg" />
+  </a>
+  <a href="https://git.drupalcode.org/project/openintranet">
+    <img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" />
+  </a>
+  <a href="https://www.drupal.org/project/openintranet/issues">
+    <img alt="Issue queue" src="https://img.shields.io/badge/issues-drupal.org-blue.svg" />
+  </a>
+  <p>
+    <a href="https://www.drupal.org/project/openintranet">Project page</a> |
+    <a href="https://git.drupalcode.org/project/openintranet">Repository</a> |
+    <a href="https://www.drupal.org/project/openintranet/releases">Release notes</a> |
+    <a href="https://www.droptica.com/products/intranet/">Request demo</a>
+  </p>
+</div>
 
-Drupal is an open source content management platform supporting a variety of
-websites ranging from personal weblogs to large community-driven websites. For
-more information, visit the Drupal website, [Drupal.org][Drupal.org], and join
-the [Drupal community][Drupal community].
+# What is Open Intranet?
 
-## Contributing
+Open Intranet is a workplace hub that brings together news, knowledge, documents, people, and data from your existing systems—with full data ownership and unlimited customization. Built on PHP, modern Drupal and Symfony components.
 
-Drupal is developed on [Drupal.org][Drupal.org], the home of the international
-Drupal community since 2001!
+## Why Choose Open Intranet?
 
-[Drupal.org][Drupal.org] hosts Drupal's [GitLab repository][GitLab repository],
-its [issue queue][issue queue], and its [documentation][documentation]. Before
-you start working on code, be sure to search the [issue queue][issue queue] and
-create an issue if your aren't able to find an existing issue.
+- **One trusted hub**: Replace multiple fragmented intranets/internal systems with a single source of truth
+- **Targeted updates**: Right message to the right people—no more email flooding
+- **Deskless-friendly**: Mobile-first communication for frontline and field workers
+- **Full control**: Data, security, and deployment options including on-prem
+- **Customizable branding**: Full control over look and feel to match your company's visual identity
+- **Custom integrations**: Connect with your existing systems (ERP, CRM, HR, legacy tools) without limitations
+- **Custom features**: Build functionality that off-the-shelf solutions like SharePoint cannot provide
+- **Long-term investment**: Open source foundation you can rely on for 5+ years without vendor lock-in
+- **Enterprise-grade security**: Built on Drupal—trusted by governments, banks, and public institutions worldwide
+- **Audit trail**: Track user actions and content changes for compliance and accountability
 
-Every issue on Drupal.org automatically creates a new community-accessible fork
-that you can contribute to. Learn more about the code contribution process on
-the [Issue forks & merge requests page][issue forks].
+## Ready-to-go intranet features
 
-## Usage
+- **News & Announcements**: Share company updates with access control per department or team
+- **Events Calendar**: Schedule and manage company events
+- **Knowledge Base**: Create and organize internal documentation
+- **Document Management**: Store and share company documents
+- **Employee Directory**: Searchable listing of staff with profiles
+- **Internal Forms**: Custom forms for employee requests and feedback
+- **Social Interactions**: Comments, reactions, and peer recognition (kudos)
+- **User Management**: Integration with LDAP/SSO and role-based access control
+- **Adoption Analytics**: Track engagement with RFV scoring, active users, and segment health
+- **AI-Assisted Content**: AI helps create and improve news, articles, and announcements
+- **AI-Powered Search**: Find information fast with RAG-powered vector search
+- **Multi-Channel Notifications**: Reach users and external contacts via email and SMS
+- **Responsive Design**: Works across desktop and mobile devices
 
-For a brief introduction, see [USAGE.txt](/core/USAGE.txt). You can also find
-guides, API references, and more by visiting Drupal's [documentation
-page][documentation].
+## Who is this for?
 
-You can quickly extend Drupal's core feature set by installing any of its
-[thousands of free and open source modules][modules]. With Drupal and its
-module ecosystem, you can often build most or all of what your project needs
-before writing a single line of code.
+- **Small and mid-sized companies (50–100 employees)**: Use Open Intranet as a ready-to-go platform with minimal setup
+- **Large enterprises (1,000+ employees)**: We've delivered highly customized implementations for organizations with 7,000+ users
 
-## Changelog
+Whether you need a quick rollout or a tailored enterprise solution, Open Intranet scales with your organization.
 
-Drupal keeps detailed [change records][changelog]. You can search Drupal's
-changes for a record of every notable breaking change and new feature since
-2011.
+## Pricing
 
-## Security
+Open Intranet is **free and open source**. Download, install, and use it at no cost.
 
-For a list of security announcements, see the [Security advisories
-page][Security advisories] (available as [an RSS feed][security RSS]). This
-page also describes how to subscribe to these announcements via email.
+For organizations that need professional support, [Droptica](https://www.droptica.com) offers paid services:
 
-For information about the Drupal security process, or to find out how to report
-a potential security issue to the Drupal security team, see the [Security team
-page][security team].
+- **Implementation**: Full deployment and configuration for your organization
+- **Customization**: Custom features, integrations, and branding
+- **Data migration**: Move content from SharePoint, legacy intranets, or other systems
+- **Training**: Workshops for administrators, editors, and end users
+- **Security audits**: Penetration testing and compliance reviews (GDPR, ISO 27001)
+- **Managed services**: Hosting, SLA, 24/7 support, and ongoing development—tailored to your needs
+- **Mobile app**: Native iOS/Android app available as an optional add-on
 
-## Need a helping hand?
+[Contact Droptica](https://www.droptica.com/contact/) for a custom quote.
 
-Visit the [Support page][support] or browse [over a thousand Drupal
-providers][service providers] offering design, strategy, development, and
-hosting services.
+## What our clients say
 
-## Legal matters
+> "Working with the Droptica team in creating our renewed intranet was great. We appreciated their flexibility, professionalism and efficient way of working. In case any changes were needed during the development they responded quickly. Within a very short time-frame our new intranet was created with a nice fresh look and feel. We can truly say that everybody is very enthusiastic about wAVe our new intranet platform."
+>
+> — **Nynke de Bakker**, Communications Manager, [Anthony Veder](https://www.droptica.com/case-study/modern-corporate-intranet-anthony-veder/)
 
-Know your rights when using Drupal by reading Drupal core's
-[license](/core/LICENSE.txt).
+## Demo
 
-Learn about the [Drupal trademark and logo policy here][trademark].
+Want to see Open Intranet in action? [Request a demo](https://www.droptica.com/products/intranet/)—a Droptica specialist will walk you through the system. After the presentation, you'll receive a dedicated demo instance for 14 days to explore on your own.
 
-[Drupal.org]: https://www.drupal.org
-[Drupal community]: https://www.drupal.org/community
-[GitLab repository]: https://git.drupalcode.org/project/drupal
-[issue queue]: https://www.drupal.org/project/issues/drupal
-[issue forks]: https://www.drupal.org/drupalorg/docs/gitlab-integration/issue-forks-merge-requests
-[documentation]: https://www.drupal.org/documentation
-[changelog]: https://www.drupal.org/list-changes/drupal
-[modules]: https://www.drupal.org/project/project_module
-[security advisories]: https://www.drupal.org/security
-[security RSS]: https://www.drupal.org/security/rss.xml
-[security team]: https://www.drupal.org/drupal-security-team
-[service providers]: https://www.drupal.org/drupal-services
-[support]: https://www.drupal.org/support
-[trademark]: https://www.drupal.com/trademark
+You can also watch a [2-minute video demo on YouTube](https://www.youtube.com/watch?v=7PRuKjPJ9qs).
+
+## Or install it yourself
+
+### Quick install (recommended)
+
+Requires [DDEV](https://ddev.com) installed on your machine.
+
+```
+curl -sL https://intranet.new/install.sh | bash
+```
+
+### Manual install
+
+**Step 1**: Install [DDEV](https://ddev.com).
+
+**Step 2**: Clone the repository:
+
+```
+git clone https://git.drupalcode.org/project/openintranet.git openintranet
+cd openintranet
+```
+
+**Step 3**: Run the launch script:
+
+```
+./launch-intranet.sh
+```
+
+**Step 4**: Complete the installation:
+
+- Browser: `ddev launch`
+- CLI: `ddev drush site-install openintranet`
+
+## Prerequisites
+
+- [DDEV](https://ddev.com)
+- [Docker](https://www.docker.com) (required by DDEV)
+- [Git](https://git-scm.com)
+
+## FAQ
+
+**Is it really free?**
+Yes. Open Intranet is released under GPL v2+. You can download, install, modify, and use it without paying anything. Droptica offers optional paid services for organizations that need professional support.
+
+**Can I connect the intranet with our existing tools?**
+Absolutely. Open Intranet can integrate with Active Directory, LDAP, and SAML/OpenID Connect for SSO. It also works with Google Workspace, Microsoft 365 for calendars and documents, and with HR/ERP/CRM platforms via API.
+
+**Will employees require training?**
+Most likely not. Open Intranet has a user-friendly layout, similar to modern web platforms. Employees can get started and navigate the system with minimal guidance.
+
+**How does AI work in Open Intranet?**
+Open Intranet includes AI-assisted content creation (suggesting text for news, articles, and announcements) and AI-powered search using RAG (Retrieval-Augmented Generation) with vector search to help employees find information fast.
+
+**Can I deploy it on-premises?**
+Yes. Open Intranet runs on standard PHP infrastructure. You can deploy it on your own servers, in a private cloud, or use any hosting provider that supports PHP and MySQL/PostgreSQL.
+
+# Resources
+
+#### Learn more about Open Intranet
+
+- [Project page](https://www.drupal.org/project/openintranet)
+- [Release notes](https://www.drupal.org/project/openintranet/releases)
+- [Issue queue](https://www.drupal.org/project/openintranet/issues)
+- [Git repository](https://git.drupalcode.org/project/openintranet)
+- [Video demo](https://www.youtube.com/watch?v=7PRuKjPJ9qs)
+
+#### License
+
+- [GNU GPL v2 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+---
+
+## About Droptica
+
+**Built with ❤️ by [Droptica](https://www.droptica.com) 🇵🇱**
+
+Solid Open Source solutions for ambitious companies.
+
+**What we do:**
+
+- **Create:** Open Intranet, Droopler CMS, Campus CMS, Druscan
+- **AI Development:** AI chatbots (RAG), autonomous agents, OpenAI/Claude integrations, custom AI models, CMS content automation & translation, workflow automation
+- **Customize:** Drupal, Mautic, Sylius, Symfony
+- **Support & maintain:** Security, updates, training, monitoring 24/7
+
+**Trusted by:** Corporations • SMEs • Startups • Universities • Government

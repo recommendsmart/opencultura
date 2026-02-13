@@ -1,0 +1,13 @@
+name: '[Open Intranet] Default Content'
+description: 'Provides default content for intranet.'
+type: 'Open Intranet'
+
+install:
+  - default_content
+  - book
+  - block
+
+config:
+  strict: false
+  import:
+    block: '*'
