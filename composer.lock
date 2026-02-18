@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84c7b47e7ddce9d26131e5e1e340d7d9",
+    "content-hash": "1025c8414b5cdd2fe09afb26600860ea",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2983,6 +2983,64 @@
             "time": "2026-02-05T08:05:30+00:00"
         },
         {
+            "name": "drupal/crm",
+            "version": "1.0.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/crm.git",
+                "reference": "1.0.0-beta4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/crm-1.0.0-beta4.zip",
+                "reference": "1.0.0-beta4",
+                "shasum": "34ff52d4a43789b60cb564a65895852fc8659891"
+            },
+            "require": {
+                "drupal/address": "^2.0",
+                "drupal/core": ">=11.1",
+                "drupal/inline_entity_form": "^3.0",
+                "drupal/name": "^1.1",
+                "drupal/primary_entity_reference": "^1.0.0@beta"
+            },
+            "require-dev": {
+                "brianium/paratest": "^7.3",
+                "drupal/group": "^2 || ^3",
+                "drush/drush": ">=9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta4",
+                    "datestamp": "1769394605",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bluegeek9",
+                    "homepage": "https://www.drupal.org/user/1286304"
+                }
+            ],
+            "description": "Contact Relationship Management for Drupal.",
+            "homepage": "https://www.drupal.org/project/crm",
+            "support": {
+                "source": "https://git.drupalcode.org/project/crm"
+            }
+        },
+        {
             "name": "drupal/crop",
             "version": "2.5.0",
             "source": {
@@ -5907,6 +5965,99 @@
             }
         },
         {
+            "name": "drupal/inline_entity_form",
+            "version": "3.0.0-rc21",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/inline_entity_form.git",
+                "reference": "3.0.0-rc21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/inline_entity_form-3.0.0-rc21.zip",
+                "reference": "3.0.0-rc21",
+                "shasum": "bbfb99be0ee35ad197556b2aa02f6e181e34ff1f"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10 || ^11",
+                "drupal/rat": "^1.0.0@stable",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "drupal/entity_reference_revisions": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0-rc21",
+                    "datestamp": "1746459780",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "centarro",
+                    "homepage": "https://www.drupal.org/user/3661446"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "jsacksick",
+                    "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "oknate",
+                    "homepage": "https://www.drupal.org/user/471638"
+                },
+                {
+                    "name": "ram4nd",
+                    "homepage": "https://www.drupal.org/user/601534"
+                },
+                {
+                    "name": "rszrama",
+                    "homepage": "https://www.drupal.org/user/49344"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "webflo",
+                    "homepage": "https://www.drupal.org/user/254778"
+                }
+            ],
+            "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
+            "homepage": "https://www.drupal.org/project/inline_entity_form",
+            "support": {
+                "source": "https://git.drupalcode.org/project/inline_entity_form"
+            }
+        },
+        {
             "name": "drupal/jquery_ui",
             "version": "1.8.0",
             "source": {
@@ -6695,6 +6846,87 @@
             }
         },
         {
+            "name": "drupal/name",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/name.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/name-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "be88032228eae39501f970f1f50b414231d3db67"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "require-dev": {
+                "drupal/diff": "^2@beta",
+                "drupal/feeds": "^3@rc",
+                "drupal/token": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1762200823",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Weber",
+                    "homepage": "https://www.drupal.org/u/webflo",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Alan D.",
+                    "homepage": "https://www.drupal.org/u/alan-d",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/589144/committers",
+                    "role": "contributor"
+                },
+                {
+                    "name": "liam morland",
+                    "homepage": "https://www.drupal.org/user/493050"
+                },
+                {
+                    "name": "nkoporec",
+                    "homepage": "https://www.drupal.org/user/3554464"
+                },
+                {
+                    "name": "rconstantine",
+                    "homepage": "https://www.drupal.org/user/94676"
+                },
+                {
+                    "name": "tyapchyc",
+                    "homepage": "https://www.drupal.org/user/3351412"
+                },
+                {
+                    "name": "webflo",
+                    "homepage": "https://www.drupal.org/user/254778"
+                }
+            ],
+            "description": "Defines a persons name field type.",
+            "homepage": "https://www.drupal.org/project/name",
+            "support": {
+                "source": "http://cgit.drupalcode.org/name",
+                "issues": "https://www.drupal.org/project/issues/name"
+            }
+        },
+        {
             "name": "drupal/nouislider_js",
             "version": "15.8.1",
             "source": {
@@ -6968,6 +7200,54 @@
             }
         },
         {
+            "name": "drupal/primary_entity_reference",
+            "version": "1.0.0-beta7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/primary_entity_reference.git",
+                "reference": "1.0.0-beta7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/primary_entity_reference-1.0.0-beta7.zip",
+                "reference": "1.0.0-beta7",
+                "shasum": "7eae280e8047628fbdf067ffcd870af5f18177d0"
+            },
+            "require": {
+                "drupal/core": ">=11.1"
+            },
+            "require-dev": {
+                "drupal/inline_entity_form": "^3.0@RC",
+                "drush/drush": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta7",
+                    "datestamp": "1771166945",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bluegeek9",
+                    "homepage": "https://www.drupal.org/user/1286304"
+                }
+            ],
+            "description": "Primary entity reference field.",
+            "homepage": "https://www.drupal.org/project/primary_entity_reference",
+            "support": {
+                "source": "https://git.drupalcode.org/project/primary_entity_reference"
+            }
+        },
+        {
             "name": "drupal/project_browser",
             "version": "2.1.3",
             "source": {
@@ -7139,6 +7419,48 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/rabbit_hole"
             }
+        },
+        {
+            "name": "drupal/rat",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rat.git",
+                "reference": "f13fcfb83445e505ffa84d2137231d91cd8c8146"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Frat/repository/archive.zip?sha=f13fcfb83445e505ffa84d2137231d91cd8c8146",
+                "reference": "f13fcfb83445e505ffa84d2137231d91cd8c8146",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "drupal/core": "^9.4",
+                "drupal/core-dev": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\rat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "gpl-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Merlin",
+                    "email": "merlin@geeks4change.net"
+                }
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/rat/-/tree/1.0.1"
+            },
+            "time": "2025-12-29T15:30:47+00:00"
         },
         {
             "name": "drupal/redirect",
@@ -15232,8 +15554,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "stability-flags": {
+        "drupal/crm": 10,
         "drupal/entitygroupfield": 5,
         "drupal/gcontent_moderation": 10,
         "drupal/project_browser": 15,
