@@ -57,6 +57,7 @@
         "drupal/pantheon_advanced_page_cache": "^2.3.1",
         "drupal/pathauto": "^1.14",
         "drupal/permissions_by_term": "^3.1",
+        "drupal/profile": "^1.14",
         "drupal/project_browser": "@alpha",
         "drupal/pwa": "^2.1@beta",
         "drupal/rabbit_hole": "^2.0@beta",
