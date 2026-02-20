@@ -58,6 +58,7 @@
         "drupal/pathauto": "^1.14",
         "drupal/permissions_by_term": "^3.1",
         "drupal/project_browser": "@alpha",
+        "drupal/pwa": "^2.1@beta",
         "drupal/rabbit_hole": "^2.0@beta",
         "drupal/subgroup": "^3.1",
         "drupal/token": "^1.17",
