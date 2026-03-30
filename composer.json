@@ -38,6 +38,7 @@
         "drupal/drupal_cms_site_template_base": "^1@dev",
         "drupal/drupal_cms_starter": "^2",
         "drupal/pantheon_advanced_page_cache": "^2.3.1",
+        "drupal/permissions_by_term": "^3.1",
         "drupal/recipe_installer_kit": "^1.0.4",
         "drupal/webform": "@beta",
         "pantheon-systems/drupal-integrations": "^11.1",
