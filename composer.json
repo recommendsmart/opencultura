@@ -44,6 +44,7 @@
         "drupal/drupal_cms_starter": "^2",
         "drupal/group": "^3.3",
         "drupal/pantheon_advanced_page_cache": "^2.3.1",
+        "drupal/paragraphs": "^1.20",
         "drupal/permissions_by_term": "^3.1",
         "drupal/profile": "^1.14",
         "drupal/pwa": "^2.1@beta",
@@ -51,6 +52,7 @@
         "drupal/rules": "^4.0",
         "drupal/token": "^1.17",
         "drupal/views_autocomplete_filters": "^2.0",
+        "drupal/views_data_export": "^1.9",
         "drupal/webform": "@beta",
         "pantheon-systems/drupal-integrations": "^11.1",
         "pantheon-upstreams/upstream-configuration": "dev-main"
