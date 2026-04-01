@@ -42,6 +42,7 @@
         "drupal/drupal_cms_seo_tools": "^2",
         "drupal/drupal_cms_site_template_base": "^1@dev",
         "drupal/drupal_cms_starter": "^2",
+        "drupal/fpa": "^4.0",
         "drupal/group": "^3.3",
         "drupal/pantheon_advanced_page_cache": "^2.3.1",
         "drupal/paragraphs": "^1.20",
