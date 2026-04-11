@@ -59,6 +59,7 @@
         "drupal/views_autocomplete_filters": "^2.0",
         "drupal/views_data_export": "^1.9",
         "drupal/webform": "@beta",
+        "drupal/workbench": "^1.6",
         "drupal/workbench_access": "^2.0",
         "pantheon-systems/drupal-integrations": "^11.1",
         "pantheon-upstreams/upstream-configuration": "dev-main"
