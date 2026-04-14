@@ -55,6 +55,7 @@
         "drupal/pwa": "^2.1@beta",
         "drupal/recipe_installer_kit": "^1.0.4",
         "drupal/rules": "^4.0",
+        "drupal/tac_lite": "^2.0",
         "drupal/token": "^1.17",
         "drupal/views_autocomplete_filters": "^2.0",
         "drupal/views_data_export": "^1.9",
