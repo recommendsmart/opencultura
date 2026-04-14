@@ -50,7 +50,6 @@
         "drupal/nodeaccess": "^2.0@alpha",
         "drupal/pantheon_advanced_page_cache": "^2.3.1",
         "drupal/paragraphs": "^1.20",
-        "drupal/permissions_by_term": "^3.1",
         "drupal/profile": "^1.14",
         "drupal/pwa": "^2.1@beta",
         "drupal/recipe_installer_kit": "^1.0.4",
